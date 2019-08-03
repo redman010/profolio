@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body{
+    width: 100%;
+    height: 125%;
+    font-size: 14px;
+    font-weight: normal;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(IMG_1456.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative; 
+    overflow-y: auto; 
+}
+.nav{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    right:0; 
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: verdana;
+    font-weight: bold;
+    height: 90px;
+    margin: 5px 0;
+    float: right;
+    background-color: black;
+    color: whitesmoke; 
+    line-height:  90px;
+    text-align: center;
+    transition: 300ms;
+}
+
+a .active, .nav a:hover{
+    background-color: rgb(78, 113, 189);
+    color: black;
+    width: 100%;
+}
+.a{
+  width: 95%;  
+}
+.b{
+    width: 87%;  
+}
+.c{
+    width: 82%;  
+}
+.d{
+    width: 78%;  
+}
+.content{
+    position: absolute;
+    width: 70%;
+    min-height: 500px;
+    height: auto;
+
+    left: 0;
+    top: 15%;
+}
+.home{
+    position: absolute;
+    left: 30px;
+    bottom: 80%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.home h1{
+    font-size: 60px;
+    padding-right: 90px;
+    border-bottom: 1px solid white;
+}
+.home h3{
+    color: rgb(205, 232, 247);
+    font-size: 28px;
+    padding: 5px 0;
+    opacity: 0.89;
+}
+.aboutus{
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    color: rgb(14, 117, 212);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 0 60px;
+}
+.aboutus p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+.gallery{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    color: rgb(14, 117, 212);
+    padding: 0 60px;
+    display: none;
+}
+.gallery .image{
+    width: 23%;
+    margin: 2%;
+    float: right;
+}
+.image img{
+width: 100%;
+}
+img{
+    height: 100px;
+    width: 500px;
+}
